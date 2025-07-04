@@ -1,0 +1,10 @@
+{
+  "voice": {
+    "provider": "elevenlabs",
+    "voice_id": "SAz9YHcvj6GT2YYXdXww",
+    "mode": "realtime",
+    "volume": 1.0,
+    "stability": 0.4,
+    "clarity": 0.9
+  }
+}

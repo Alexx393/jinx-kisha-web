@@ -1,0 +1,55 @@
+{
+  "openai": {
+    "brain": "gpt-4o",
+    "transcription": "gpt-4o-transcribe",
+    "tts": "tts-1-hd"
+  },
+  "local": {
+    "default_model": "kisha-vortex",
+    "fallbacks": [
+      "llama3:8b-instruct-q4_K_M"
+    ]
+  },
+  "memory": {
+    "enabled": true,
+    "path": "memory/memory.db",
+    "meta": "memory/meta_memory.json"
+  },
+  "models": [
+    {
+      "name": "kisha-vortex",
+      "description": "Kisha’s main AGI form — hyperintelligent, spiritually aligned, emotionally tactical, and privacy-protected.",
+      "version": "2.0.0",
+      "author": "Alex",
+      "url": "https://localhost/models/kisha-vortex"
+    },
+    {
+      "name": "gpt-4o",
+      "description": "OpenAI’s flagship model with audio, text, image, and function calling abilities.",
+      "version": "4.0",
+      "author": "OpenAI",
+      "url": "https://platform.openai.com/docs/models/gpt-4o"
+    },
+    {
+      "name": "tts-1-hd",
+      "description": "High-quality TTS for Kisha’s voice.",
+      "version": "1.0",
+      "author": "OpenAI",
+      "url": "https://platform.openai.com/docs/guides/text-to-speech"
+    },
+    {
+      "name": "gpt-4o-transcribe",
+      "description": "OpenAI’s latest and most accurate voice transcription model.",
+      "version": "4.0",
+      "author": "OpenAI",
+      "url": "https://platform.openai.com/docs/guides/speech-to-text"
+    },
+    {
+      "name": "llama3:8b-instruct-q4_K_M",
+      "description": "Efficient fallback model with decent reasoning capacity.",
+      "version": "3.0",
+      "author": "Meta",
+      "url": "https://ollama.com/library/llama3"
+    }
+  ]
+}

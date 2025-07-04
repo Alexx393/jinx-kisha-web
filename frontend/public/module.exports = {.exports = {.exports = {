@@ -1,0 +1,12 @@
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        kishaGlow: '#7f5af0',
+      },
+      fontFamily: {
+        kisha: ['"Poppins"', 'sans-serif'],
+      },
+    },
+  },
+}
